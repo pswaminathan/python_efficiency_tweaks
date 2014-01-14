@@ -29,4 +29,4 @@ plt.title('Lists item function call')
 plt.legend(['list_func_1.py', 'list_func_2.py', 'list_func_3.py'], loc='upper left')
 
 #plt.show()
-plt.savefig('list_func.png')
+plt.savefig(‘./PNGs/list_func.png')

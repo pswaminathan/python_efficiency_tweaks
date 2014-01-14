@@ -19,4 +19,4 @@ plt.ylabel('rel. performance gain')
 plt.title('Lists item function call - Speed improvements')
 
 #plt.show()
-plt.savefig('list_func_bar.png')
+plt.savefig(‘./PNGs/list_func_bar.png')
