@@ -1,7 +1,6 @@
 # Plotting performance of list_func_.py scripts
 # bar chart of relative comparison with variances as error bars
 
-#import matplotlib.pyplot as plt; plt.rcdefaults()
 import numpy as np
 import matplotlib.pyplot as plt
 

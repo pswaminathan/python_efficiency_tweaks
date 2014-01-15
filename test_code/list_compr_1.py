@@ -1,3 +1,5 @@
+# List initiation
+
 import time
 from max_size import n
 
