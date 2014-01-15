@@ -7,7 +7,7 @@ orig_dict = {i:0 for i in range(1, n)}
 
 start_time = time.clock()
 
-for i in range(n-2, 2*n):
+for i in range(n-1, 2*n):
     if i not in orig_dict:
         orig_dict[i] = 0
     orig_dict[i] += 1
