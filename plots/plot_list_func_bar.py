@@ -12,10 +12,11 @@ x_pos = np.arange(len(scripts))
 
 plt.bar(x_pos, performance, yerr=variance, align='center', alpha=0.5)
 plt.xticks(x_pos, scripts)
+plt.axhline(y=1, linestyle='--', color='black')
 plt.ylim([0,4])
 
 plt.ylabel('rel. performance gain')
 plt.title('Lists item function call - Speed improvements')
 
 #plt.show()
-plt.savefig(‘./PNGs/list_func_bar.png')
+plt.savefig('./PNGs/list_func_bar.png')

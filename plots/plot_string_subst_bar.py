@@ -4,15 +4,16 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-performance = [1,0.096848237372566,0.994821055040085]
-variance = [0,0.0000646513842611129,0.000302580396972356]
+performance = [10.3882388499416,1,10.3212281215746]
+variance = [0.790435196936213,0,0.827207394592818]
 scripts = ['string_subst_1.py', 'string_subst_2.py', 'string_subst_3.py']
 
 x_pos = np.arange(len(scripts))
 
 plt.bar(x_pos, performance, yerr=variance, align='center', alpha=0.5)
 plt.xticks(x_pos, scripts)
-plt.ylim([0,4])
+plt.axhline(y=1, linestyle='--', color='black')
+plt.ylim([0,12])
 
 plt.ylabel('rel. performance gain')
 plt.title('String substitution - Speed improvements')
