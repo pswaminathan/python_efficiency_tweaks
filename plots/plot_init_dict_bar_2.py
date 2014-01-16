@@ -4,18 +4,18 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-performance = [1,1.74072653463125,0.626643645624977]
-variance = [0,0.00452313458473456,0.022025881015751]
-scripts = ['init_dict_1.py', 'init_dict_2.py', 'init_dict_3.py']
+performance = [1,0.742326411677032]
+variance = [0,0.00108399990572723]
+scripts = ['init_dict_1.py', 'init_dict_2.py']
 
 x_pos = np.arange(len(scripts))
 
 plt.bar(x_pos, performance, yerr=variance, align='center', alpha=0.5)
 plt.xticks(x_pos, scripts)
-plt.ylim([0,4])
+plt.ylim([0,2])
 
 plt.ylabel('rel. performance gain')
-plt.title('Dictionary initialization - Speed improvements')
+plt.title('Dictionary initialization 2 - Speed improvements')
 
 #plt.show()
-plt.savefig('PNGs/init_dict_bar.png')
+plt.savefig('PNGs/init_dict_bar_2.png')
