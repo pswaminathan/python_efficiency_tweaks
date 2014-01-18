@@ -4,8 +4,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-performance = [1,1.74072653463125]
-variance = [0,0.00452313458473456]
+performance = [1,1.17210805133528]
+variance = [0,0.000442195264239261]
 scripts = ['init_dict_1.py', 'init_dict_2.py']
 
 x_pos = np.arange(len(scripts))
